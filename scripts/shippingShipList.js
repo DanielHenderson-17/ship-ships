@@ -28,7 +28,7 @@ export const ShippingShipList = () => {
     let shipsHTML = "<ul>"
 
     for (const ship of ships) {
-        shipsHTML += `<li data-id="${ship.id}" data-hauler-id="${ship.hauler_ship_id}" data-type="shippingShip">${ship.name}</li>`
+        shipsHTML += `<li data-id="${ship.id}" data-hauler-id="${ship.hauler_ship_id}" data-type="shippingShip" class="bg-info my-2">${ship.name}</li>`
     }
 
     shipsHTML += "</ul>"
